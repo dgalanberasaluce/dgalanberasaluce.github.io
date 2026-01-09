@@ -1,3 +1,25 @@
-theme: jekyll-theme-minimal
+# Site settings
 title: David's homepage
-description: This is a test
+description: Minimalist Portfolio
+url: "https://dgalanberasaluce.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+username: dgalanberasaluce
+
+collections:
+  homelab:
+    output: true
+    permalink: /homelab/:path
+
+markdown: kramdown
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+- blog.md
+- homelab.md
+- resources.md

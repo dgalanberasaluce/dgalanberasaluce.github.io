@@ -1,0 +1,122 @@
+<header class="site-header" style="border: none;">
+  <div class="wrapper header-container">
+    
+    <a class="site-logo" href="/">
+      David Galan<span style="color: #0077b5;">.</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menú">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="site-nav">
+      <a href="/blog/">Blog</a>
+      <a href="/homelab/">Homelab</a>
+      <a href="/resources/">Resources</a>
+    </nav>
+
+  </div>
+</header>
+
+<style>
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0; 
+    flex-wrap: wrap;
+  }
+
+  .site-logo {
+    text-decoration: none;
+    color: #111;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: -0.5px;
+    z-index: 20;
+  }
+
+  .site-nav {
+    display: flex;
+    gap: 30px;
+  }
+
+  .site-nav a {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .site-nav a:hover {
+    color: #000;
+  }
+
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.6rem; 
+    cursor: pointer;
+    color: #333;
+    padding: 5px;
+  }
+
+  /* --- Mobile (Max-width 768px) --- */
+  @media (max-width: 768px) {
+    
+    .header-container {
+      padding-left: 30px !important;  
+      padding-right: 5px !important; 
+    }
+
+    .menu-toggle {
+      display: block;
+      margin-right: -10px; 
+    }
+
+    .site-nav {
+      display: none; 
+      width: 100%;   
+      flex-direction: column; 
+      gap: 0;
+      padding-top: 20px;
+      text-align: center;
+      background-color: #fff; 
+    }
+
+    .site-nav a {
+      padding: 15px 0;
+      border-bottom: 1px solid #f9f9f9;
+      display: block;
+      font-size: 1.1rem;
+    }
+
+    .site-nav.is-open {
+      display: flex;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const siteNav = document.querySelector('.site-nav');
+
+    if (menuToggle) {
+      menuToggle.addEventListener('click', function() {
+        siteNav.classList.toggle('is-open');
+        const icon = menuToggle.querySelector('i');
+        if (siteNav.classList.contains('is-open')) {
+          icon.classList.remove('fa-bars');
+          icon.classList.add('fa-times');
+        } else {
+          icon.classList.remove('fa-times');
+          icon.classList.add('fa-bars');
+        }
+      });
+    }
+  });
+</script>
