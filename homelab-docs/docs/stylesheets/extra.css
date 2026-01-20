@@ -1,0 +1,19 @@
+/* 1. Ocultar SIEMPRE el texto del nombre (repo_name) */
+.md-source__repository {
+  display: none;
+}
+
+/* 2. Forzar que el icono se vea en pantallas pequeñas (Móvil/Tablet) */
+/* Por defecto MkDocs lo oculta debajo de 1220px */
+@media screen and (max-width: 76.1875em) {
+  .md-header__source {
+    display: block !important;
+    width: auto !important;
+    margin-left: 0.5rem; /* Separación con la barra de búsqueda */
+  }
+}
+
+/* 3. Ajuste estético opcional: Hacer el icono un poco más sutil */
+/* .md-header__source .md-source__icon { */
+    /* color: var(--md-default-fg-color--light); */
+/* } */

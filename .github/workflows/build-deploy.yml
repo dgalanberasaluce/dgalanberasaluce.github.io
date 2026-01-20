@@ -1,0 +1,68 @@
+name: Deploy Hybrid Site (Jekyll + MkDocs)
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v6
+
+      # Setup main page (jekyll)
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
+          working-directory: 'home'
+          
+      - name: Build Jekyll
+        run: bundle exec jekyll build
+        working-directory: 'home'
+
+      # MkDocs (homelab)
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: 3.11
+          
+      - name: Install MkDocs dependencies
+        run: pip install mkdocs mkdocs-material 
+
+      - name: Build MkDocs
+        run: mkdocs build -f homelab-docs/mkdocs.yml -d mkdocs_build
+
+      # Integrate mkdocs into jekyll
+      - name: Integrate MkDocs within Jekyll
+        run: |
+          mkdir -p home/_site/homelab
+          cp -r mkdocs_build/* home/_site/homelab/
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "home/_site"
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
