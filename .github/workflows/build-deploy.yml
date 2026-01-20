@@ -40,7 +40,7 @@ jobs:
           python-version: 3.11
           
       - name: Install MkDocs dependencies
-        run: pip install mkdocs mkdocs-material 
+        run: pip install mkdocs mkdocs-material mkdocs-glightbox
 
       - name: Build MkDocs
         run: |

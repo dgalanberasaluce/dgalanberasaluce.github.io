@@ -9,25 +9,16 @@ theme:
     scheme: slate
     primary: teal
     accent: lime
-  # features:
-    # - navigation.top
-    # - navigation.tabs
-    # - search.suggest
-    # - search.highlight
 
 repo_url: "https://dgalanberasaluce.github.io"
 repo_name: "Home"
 
-# Menú extra para volver al Jekyll principal
-# nav:
-  # - Home: index.md
-  # - Servers: servidores.md
-
-plugins: []
-  # - search: false 
+plugins:
+- glightbox
 
 extra_css: []
-# - stylesheets/extra.css
 
 extra_javascript: []
-# - javascripts/force_home.js
+
+markdown_extensions:
+  - attr_list     
