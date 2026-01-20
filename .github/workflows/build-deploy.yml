@@ -43,13 +43,15 @@ jobs:
         run: pip install mkdocs mkdocs-material 
 
       - name: Build MkDocs
-        run: mkdocs build -f homelab-docs/mkdocs.yml -d mkdocs_build
+        run: |
+          cd homelab-docs
+          mkdocs build
 
       # Integrate mkdocs into jekyll
       - name: Integrate MkDocs within Jekyll
         run: |
           mkdir -p home/_site/homelab
-          cp -r mkdocs_build/* home/_site/homelab/
+          cp -r homelab-docs/site/* home/_site/homelab/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
