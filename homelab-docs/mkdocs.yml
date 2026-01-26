@@ -11,8 +11,8 @@ theme:
     primary: teal
     accent: lime
 
-repo_url: "https://dgalanberasaluce.github.io"
-repo_name: "Home"
+repo_url: "https://github.com/dgalanberasaluce/infra-personal"
+repo_name: "Git Repo"
 
 plugins:
 - glightbox
