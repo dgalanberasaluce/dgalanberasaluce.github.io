@@ -1,5 +1,6 @@
 site_name: Homelab Docs
 # site_url: "https://dgalanberasaluce.github.io/" #  http://localhost:8080/
+site_url: "https://dgalanberasaluce.com"
 copyright: Copyright (©) 2026 David Galan
 use_directory_urls: true
 

@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+        corePlugins: { preflight: false },
+        theme: {
+            extend: {
+                colors: { "primary": "#13ec5b" },
+                fontFamily: { "sans": ["Inter", "sans-serif"] }
+            }
+        }
+    }
+</script>
+
+<div class="py-10 px-4 max-w-[1200px] mx-auto font-sans">
+    
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold mb-3 text-gray-900">{{ page.title }}</h1>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-10">
+        
+        {% for photo in site.data.gallery %}
+        
+        {% assign img_src = photo.image_url %}
+        {% unless img_src contains "http" %}
+            {% assign img_src = photo.image_url | relative_url %}
+        {% endunless %}
+
+        <div class="group flex flex-col text-left">
+            
+            <a href="{{ img_src }}" 
+               class="glightbox block aspect-square overflow-hidden rounded-xl bg-gray-100 mb-3 relative shadow-sm transition-all duration-300 group-hover:shadow-md cursor-zoom-in"
+               data-gallery="gallery1"
+               data-title="{{ photo.title }}"
+               data-description="{{ photo.date }}">
+                
+                <img 
+                    src="{{ img_src }}" 
+                    alt="{{ photo.title }}" 
+                    class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 m-0"
+                    loading="lazy"
+                    style="margin:0;" 
+                >
+                
+                <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <span class="material-symbols-outlined text-white text-4xl drop-shadow-lg" style="font-size: 48px;">open_in_full</span>
+                </div>
+            </a>
+
+            <div>
+                <h3 class="font-bold text-lg text-gray-900 leading-tight mb-1 group-hover:text-primary transition-colors">
+                    {{ photo.title }}
+                </h3>
+                <p class="text-sm text-gray-500 font-medium">
+                    {{ photo.date  }}
+                </p>
+            </div>
+
+        </div>
+        {% endfor %}
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+<script type="text/javascript">
+    const lightbox = GLightbox({
+        touchNavigation: true,
+        loop: true,
+        autoplayVideos: true,
+        selector: '.glightbox'
+    });
+</script>
