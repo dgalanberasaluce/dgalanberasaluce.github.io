@@ -1,31 +1,39 @@
 - title: "Maui, Hawaii, USA"
   image_url: "/assets/images/haleakala-2023.jpeg"
+  thumb_url: "/assets/images/thumb/haleakala-2023.webp"
   date: "2023"
 
 - title: "Maui, Hawaii, USA"
   image_url: "/assets/images/haleakala-2-2023.jpeg"
+  thumb_url: "/assets/images/thumb/haleakala-2-2023.webp"
   date: "2023"
 
 - title: "Big Island, Hawaii, USA"
   image_url: "/assets/images/mauna-kea-2023.jpeg"
+  thumb_url: "/assets/images/thumb/mauna-kea-2023.webp"
   date: "2023"
 
 - title: "Chicago, USA"
   image_url: "/assets/images/chicago-brown-line.jpeg"
+  thumb_url: "/assets/images/thumb/chicago-brown-line.webp"
   date: "2024"
 
 - title: "Thailand"
   image_url: "/assets/images/thailand-2024.jpeg"
+  thumb_url: "/assets/images/thumb/thailand-2024.webp"
   date: "2024"
 
 - title: "Iceland"
   image_url: "/assets/images/iceland-2024.jpeg"
+  thumb_url: "/assets/images/thumb/iceland-2024.webp"
   date: "2024"
 
 - title: "Salar de Uyuni, Bolivia"
   image_url: "/assets/images/uyuni-2025.jpeg"
+  thumb_url: "/assets/images/thumb/uyuni-2025.webp"
   date: "2025"
 
 - title: "Mallorca, Spain"
   image_url: "/assets/images/mallorca-2025.jpeg"
+  thumb_url: "/assets/images/thumb/mallorca-2025.webp"
   date: "2025"
