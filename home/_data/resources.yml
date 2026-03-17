@@ -1,0 +1,50 @@
+- url: "https://www.docker.com/blog/building-ai-teams-docker-sandboxes-agent"
+  desc: "AI Development: Docker sandboxes and docker agent"
+  date: "2026-03-11"
+  scope: "ai"
+
+- url: "https://robertsdotpm.github.io/cryptography/tcp_hole_punching.html"
+  desc: "TCP Hole punching algorithm"
+  date: "2026-03-15"
+  scope: "network"
+
+- url: "https://www.cncf.io/blog/2026/03/09/registry-mirror-authentication-with-kubernetes-secrets/"
+  desc: "Private registry mirror authentication with kubernetes secrets"
+  date: "2026-03-09"
+  scope: "kubernetes"
+
+- url: "https://ellie.wtf/notes/spegel/"
+  desc: "p2p docker registries in k3s"
+  date: "2026-02-16"
+  scope: "kubernetes"
+
+- url: "https://aws.amazon.com/blogs/security/how-to-manage-the-lifecycle-of-amazon-machine-images-using-ami-lineage-for-aws/"
+  desc: "How to manage the lifecycle of AWS AMIs"
+  date: "2026-03-12"
+  scope: "aws"
+
+- url: "https://cloudsecurityalliance.org/blog/2026/03/10/islands-of-agents-why-one-iam-to-rule-them-all-doesn-t-work"
+  desc: "IAM to manage 'Islands of Agents'"
+  date: "2026-03-10"
+  scope: "iam"
+
+- url: "https://aws.amazon.com/blogs/developer/announcing-new-output-formats-in-aws-cli-v2"
+  desc: "AWS CLI v2 output formats"
+  date: "2026-02-27"
+  scope: "aws"
+
+- url: "https://aws.amazon.com/blogs/aws/introducing-account-regional-namespaces-for-amazon-s3-general-purpose-buckets"
+  desc: "S3 account regional namespace"
+  date: "2026-03-12"
+  scope: "aws"
+
+- url: "https://aws.amazon.com/blogs/architecture/the-hidden-price-tag-uncovering-hidden-costs-in-cloud-architectures-with-the-aws-well-architected-framework"
+  desc: "Uncovering hidden costs in cloud architectures with the AWS Well-Architected framework"
+  date: "2026-03-03"
+  scope: "aws"
+
+- url: "https://arturdryomov.dev/posts/amazon-s3-paper-cuts"
+  desc: "Amazon S3 cuts"
+  date: "2026-02-28"
+  scope: "aws"
+  

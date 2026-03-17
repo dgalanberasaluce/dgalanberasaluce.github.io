@@ -1,0 +1,57 @@
+---
+layout: default
+title: Resources
+permalink: /resources/
+---
+
+<style>
+  .resources-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .resources-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .resources-item {
+    margin: 0 0 14px 0;
+    line-height: 1.7;
+    color: #222;
+    word-break: break-word;
+  }
+
+  .resource-main {
+    color: #222;
+  }
+
+  .resource-meta {
+    color: #666;
+  }
+
+  .resources-item a {
+    color: #0077b5;
+    text-decoration: none;
+  }
+
+  .resources-item a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<div class="resources-wrapper">
+  {% assign sorted_resources = site.data.resources | sort: "date" | reverse %}
+  <ul class="resources-list">
+    {% for resource in sorted_resources %}
+      <li class="resources-item">
+        <div class="resource-main">
+          {{ resource.date }} - <a href="{{ resource.url }}" target="_blank" rel="noopener noreferrer">{{ resource.url }}</a>
+        </div>
+        <div class="resource-meta">[{{ resource.scope }}] - {{ resource.desc }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
