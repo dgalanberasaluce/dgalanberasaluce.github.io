@@ -47,4 +47,8 @@
   desc: "Amazon S3 cuts"
   date: "2026-02-28"
   scope: "aws"
-  
+
+- url: "https://learnkube.com/kubernetes-services-and-load-balancing"
+  desc: "Kubernetes Networking"
+  date: "2024-10-01"
+  scope: "kubernetes"
