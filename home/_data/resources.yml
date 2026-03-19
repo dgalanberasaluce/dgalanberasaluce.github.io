@@ -57,3 +57,8 @@
   desc: "Stripe end-to-end coding agents"
   date: "2026-02-09"
   scope: "ai"
+
+- url: "https://aws.amazon.com/blogs/architecture/6000-aws-accounts-three-people-one-platform-lessons-learned/"
+  desc: "Manage 6000 AWS accounts with 3 people"
+  date: "2026-02-25"
+  scope: "aws"
