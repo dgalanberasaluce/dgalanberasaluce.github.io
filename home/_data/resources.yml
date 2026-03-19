@@ -52,3 +52,8 @@
   desc: "Kubernetes Networking"
   date: "2024-10-01"
   scope: "kubernetes"
+
+- url: "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents"
+  desc: "Stripe end-to-end coding agents"
+  date: "2026-02-09"
+  scope: "ai"
