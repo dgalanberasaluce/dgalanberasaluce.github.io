@@ -72,3 +72,8 @@
   desc: "Fast regex search by Cursor"
   date: "2026-03-23"
   scope: "algorithm"
+
+- url: "https://rosesecurity.dev/2026/03/20/typosquatting-trivy.html"
+  desc: "Trivy supply chain attack"
+  date: "2026-03-20"
+  scope: "security"
