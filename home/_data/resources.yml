@@ -77,3 +77,8 @@
   desc: "Trivy supply chain attack"
   date: "2026-03-20"
   scope: "security"
+
+- url: "https://codefresh.io/blog/argocd-clusters-labels-with-apps/"
+  desc: "ArgoCD Application Sets use case"
+  date: "2025-06-17"
+  scope: "kubernetes"
