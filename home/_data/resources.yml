@@ -67,3 +67,8 @@
   desc: "Kubernetes pod restarts"
   date: "2026-03-17"
   scope: "kubernetes"
+
+- url: "https://cursor.com/blog/fast-regex-search"
+  desc: "Fast regex search by Cursor"
+  date: "2026-03-23"
+  scope: "algorithm"
