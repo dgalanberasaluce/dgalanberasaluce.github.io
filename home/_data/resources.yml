@@ -82,3 +82,8 @@
   desc: "ArgoCD Application Sets use case"
   date: "2025-06-17"
   scope: "kubernetes"
+
+- url: "https://samwho.dev/bloom-filters"
+  desc: "Bloom filters"
+  date: "2024-02-19"
+  scope: "algorithms"
