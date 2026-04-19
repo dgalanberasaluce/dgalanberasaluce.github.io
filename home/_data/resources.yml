@@ -87,3 +87,8 @@
   desc: "Bloom filters"
   date: "2024-02-19"
   scope: "algorithms"
+
+- url: "https://nikolays.gitlab.io/postgres/"
+  desc: "The Postgres Decade"
+  date: "2025-04-18"
+  scope: "databases"
