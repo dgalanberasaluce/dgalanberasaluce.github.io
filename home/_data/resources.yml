@@ -92,3 +92,8 @@
   desc: "The Postgres Decade"
   date: "2025-04-18"
   scope: "databases"
+
+- url: "https://developers.redhat.com/articles/2026/04/03/introduction-to-linux-interfaces-for-virtual-networking"
+  desc: "Linux interfaces"
+  date: "2026-04-03"
+  scope: "linux"
