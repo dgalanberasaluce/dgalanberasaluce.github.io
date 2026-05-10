@@ -102,3 +102,8 @@
   desc: "Benchmarking"
   date: "2026-05-2026"
   scope: "databases"
+
+- url: "https://www.gemba.es/p/como-construimos-nuestro-buscador"
+  desc: "Mercadona Tech Search Engine"
+  date: "2026-04-27"
+  scope: "systems"
