@@ -112,3 +112,8 @@
   desc: "What kubectl debug does not tell"
   date: "2026-05-18"
   scope: "kubernetes"
+
+- url: "https://workshop-ia-2026.686f6c61.dev/"
+  desc: "AI Workshop"
+  date: "2026-05-22"
+  scope: "ai"
