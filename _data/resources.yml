@@ -117,3 +117,8 @@
   desc: "AI Workshop"
   date: "2026-05-22"
   scope: "ai"
+
+- url: "https://www.byoharness.dev/"
+  desc: "Build your AI Harness"
+  date: "2026-05-01"
+  scope: "ai"
