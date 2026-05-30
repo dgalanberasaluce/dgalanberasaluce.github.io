@@ -100,5 +100,25 @@
 
 - url: "https://planetscale.com/blog/on-benchmarking"
   desc: "Benchmarking"
-  date: "2026-05-2026"
+  date: "2026-05-05"
   scope: "databases"
+
+- url: "https://www.gemba.es/p/como-construimos-nuestro-buscador"
+  desc: "Mercadona Tech Search Engine"
+  date: "2026-04-27"
+  scope: "systems"
+
+- url: "https://www.cncf.io/blog/2026/05/18/what-kubectl-debug-doesnt-tell-you-the-silent-evidence-gap"
+  desc: "What kubectl debug does not tell"
+  date: "2026-05-18"
+  scope: "kubernetes"
+
+- url: "https://workshop-ia-2026.686f6c61.dev/"
+  desc: "AI Workshop"
+  date: "2026-05-22"
+  scope: "ai"
+
+- url: "https://www.byoharness.dev/"
+  desc: "Build your AI Harness"
+  date: "2026-05-01"
+  scope: "ai"
