@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <!-- Fondo beige cálido -->
+  <rect width="200" height="200" fill="#F4F1EA" />
+  
+  <!-- Marco elegante -->
+  <rect x="15" y="15" width="170" height="170" fill="none" stroke="#1A2436" stroke-width="1" />
+  <rect x="22" y="22" width="156" height="156" fill="none" stroke="#1A2436" stroke-width="0.5" stroke-dasharray="2 2" />
+  
+  <!-- Adornos en las esquinas (rombos clásicos) -->
+  <path d="M 15 15 L 20 20 L 15 25 L 10 20 Z" fill="#1A2436" transform="translate(5,0)" />
+  <path d="M 175 15 L 180 20 L 175 25 L 170 20 Z" fill="#1A2436" transform="translate(5,0)" />
+  <path d="M 15 175 L 20 180 L 15 185 L 10 180 Z" fill="#1A2436" transform="translate(5,0)" />
+  <path d="M 175 175 L 180 180 L 175 185 L 170 180 Z" fill="#1A2436" transform="translate(5,0)" />
+
+  <!-- Llaves de código (Estilo romántico) -->
+  <text x="55" y="125" font-family="'Times New Roman', Georgia, serif" font-size="55" font-weight="lighter" fill="#8C7A5A" text-anchor="middle">
+    {
+  </text>
+  <text x="145" y="125" font-family="'Times New Roman', Georgia, serif" font-size="55" font-weight="lighter" fill="#8C7A5A" text-anchor="middle">
+    }
+  </text>
+
+  <!-- Letra D principal -->
+  <text x="100" y="128" font-family="'Times New Roman', Georgia, serif" font-size="75" font-weight="normal" fill="#1A2436" text-anchor="middle">
+    D
+  </text>
+  
+  <!-- Detalle sutil inferior -->
+  <path d="M 85 155 Q 100 160 115 155 Q 100 152 85 155" fill="#8C7A5A" />
+</svg>
