@@ -122,3 +122,8 @@
   desc: "Build your AI Harness"
   date: "2026-05-01"
   scope: "ai"
+
+- url: "https://cloud.google.com/blog/products/devops-sre/how-google-sre-is-using-agentic-ai-to-improve-operations"
+  desc: "How google SRE is using agentic AI"
+  date: "2026-05-29"
+  scope: "sre"
