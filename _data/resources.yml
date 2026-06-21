@@ -127,3 +127,8 @@
   desc: "How google SRE is using agentic AI"
   date: "2026-05-29"
   scope: "sre"
+
+- url: "https://www.greybeam.ai/blog/duckdb-internals-part-1"
+  desc: "DuckDB Internals. Part I"
+  date: "2026-05-04"
+  scope: "databases"
