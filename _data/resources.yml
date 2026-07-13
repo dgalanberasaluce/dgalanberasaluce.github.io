@@ -137,3 +137,8 @@
   desc: "Enable security settings on Github repositories"
   date: "2026-07-01"
   scope: "devops"
+
+- url: "https://www.iaparagentecuriosa.686f6c61.dev/"
+  desc: "IA para gente curiosa"
+  date: "2026-07-13"
+  scope: "ai"
