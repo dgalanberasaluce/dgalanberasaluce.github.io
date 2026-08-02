@@ -142,3 +142,8 @@
   desc: "IA para gente curiosa"
   date: "2026-07-13"
   scope: "ai"
+
+- url: "https://jeffhuang.com/best_paper_awards/"
+  desc: "Best Awards in Computer Science"
+  date: "1970-01-01"
+  scope: "ai"
