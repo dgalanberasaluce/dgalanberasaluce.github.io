@@ -147,3 +147,8 @@
   desc: "Best Awards in Computer Science"
   date: "1970-01-01"
   scope: "ai"
+
+- url: "https://planetscale.com/blog/concurrency-vs-throughput-vitess-mysql"
+  desc: "Concurrency vs. Throughput"
+  date: "2026-08-07"
+  scope: "databases"
