@@ -1,9 +1,4 @@
 - title: "Maui, Hawaii, USA"
-  image_url: "/assets/images/haleakala-2023.jpeg"
-  thumb_url: "/assets/images/thumb/haleakala-2023.webp"
-  date: "2023"
-
-- title: "Maui, Hawaii, USA"
   image_url: "/assets/images/haleakala-2-2023.jpeg"
   thumb_url: "/assets/images/thumb/haleakala-2-2023.webp"
   date: "2023"
@@ -36,4 +31,14 @@
 - title: "Mallorca, Spain"
   image_url: "/assets/images/mallorca-2025.jpeg"
   thumb_url: "/assets/images/thumb/mallorca-2025.webp"
+  date: "2025"
+
+- title: "The Himalayas"
+  image_url: "/assets/images/the-himalayas-2025.jpeg"
+  thumb_url: "/assets/images/thumb/the-himalayas-2025.webp"
+  date: "2025"
+
+- title: "Taipei, Taiwan"
+  image_url: "/assets/images/taiwan-2025.jpeg"
+  thumb_url: "/assets/images/thumb/taiwan-2025.webp"
   date: "2025"
