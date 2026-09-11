@@ -113,11 +113,6 @@
   date: "2026-05-18"
   scope: "kubernetes"
 
-- url: "https://workshop-ia-2026.686f6c61.dev/"
-  desc: "AI Workshop"
-  date: "2026-05-22"
-  scope: "ai"
-
 - url: "https://www.byoharness.dev/"
   desc: "Build your AI Harness"
   date: "2026-05-01"
