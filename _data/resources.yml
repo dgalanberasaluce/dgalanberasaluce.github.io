@@ -157,3 +157,8 @@
   desc: "Five key autoscaling metrics for Kubernetes"
   date: "2026-09-26"
   scope: "sre"
+
+- url: "https://mia-ai.net/lab/experiments/100-htmls"
+  desc: "100 HTML files generated with one prompt"
+  date: "2026-10-07"
+  scope: "ai"
