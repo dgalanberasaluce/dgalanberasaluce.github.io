@@ -167,3 +167,8 @@
   desc: "Examples using anatomy skill"
   date: "2026-10-12"
   scope: "ai"
+
+- url: "https://benniemosher.com/learning/2026/10/06/slis-slos-and-error-budgets.html"
+  desc: "SLIs, SLOs and Error budgets"
+  date: "2026-10-06"
+  scope: "sre"
