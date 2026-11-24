@@ -182,3 +182,8 @@
   desc: "Prevent connections from writing into a Postgres primary before promoting"
   date: "2026-11-04"
   scope: "databases"
+
+- url: "https://dgryski.medium.com/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8"
+  desc: "Consistent Hashing"
+  date: "2018-04-02"
+  scope: "algorithms"
