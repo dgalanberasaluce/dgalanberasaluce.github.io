@@ -187,3 +187,8 @@
   desc: "Consistent Hashing"
   date: "2018-04-02"
   scope: "algorithms"
+
+- url: "https://www.linkedin.com/blog/engineering/infrastructure/how-linkedin-runs-compute-self-managed-kubernetes-on-500000-bare-metal-servers"
+  desc: "Linkedin self-managed kubernetes infrastructure"
+  date: "2026-11-19"
+  scope: "kubernetes"
