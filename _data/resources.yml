@@ -192,3 +192,8 @@
   desc: "Linkedin self-managed kubernetes infrastructure"
   date: "2026-11-19"
   scope: "kubernetes"
+
+- url: "https://www.joesluis.com/blog/how-database-replication-works"
+  desc: "Database replication"
+  date: "2026-11-20"
+  scope: "databases"
